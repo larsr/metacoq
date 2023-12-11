@@ -13,6 +13,8 @@ let
       { case = "8.14"; out = "1.0-8.14"; }
       { case = "8.15"; out = "1.0-8.15"; }
       { case = "8.16"; out = "1.0-8.16"; }
+      { case = "8.17"; out = "1.2.1-8.17"; }
+      { case = "8.18"; out = "1.2.1-8.18"; }
       { case = "dev"; out = "dev"; }
     ] null;
   release = {
@@ -22,6 +24,8 @@ let
     "1.0-8.14".sha256 = "sha256-iRnaNeHt22JqxMNxOGPPycrO9EoCVjusR2s0GfON1y0=";
     "1.0-8.15".sha256 = "sha256-8RUC5dHNfLJtJh+IZG4nPTAVC8ZKVh2BHedkzjwLf/k=";
     "1.0-8.16".sha256 = "sha256-7rkCAN4PNnMgsgUiiLe2TnAliknN75s2SfjzyKCib/o=";
+    "1.2.1-8.17".sha256 = "sha256-FP4upuRsG8B5Q5FIr76t+ecRirrOUX0D1QiLq0/zMyE=";
+    "1.2.1-8.18".sha256 = "sha256-49g5db2Bv8HpltptJdxA7zrmgNFGC6arx5h2mKHhrko=";
   };
   releaseRev = v: "v${v}";
 
